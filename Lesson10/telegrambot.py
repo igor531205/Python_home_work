@@ -167,7 +167,7 @@ def telegram_bot(BOT_TOKEN: str):
         [
             InlineKeyboardButton('=', callback_data='='),
             InlineKeyboardButton('0', callback_data='0'),
-            InlineKeyboardButton('.', callback_data='.'),
+            InlineKeyboardButton('=', callback_data='='),
             InlineKeyboardButton('+', callback_data='+'),
         ],
     ]
